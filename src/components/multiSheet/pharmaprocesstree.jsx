@@ -240,14 +240,20 @@
 import React, { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import { jsPDF } from "jspdf";
-import html2canvas from "html2canvas";
+import { Canvg } from "canvg";
 import jsonData from "../Pharma_ProcessMap.json";
 
 const PharmaProcessTree = () => {
   const svgRef = useRef();
   const containerRef = useRef();
   const [treeData, setTreeData] = useState(null);
-  const [levels, setLevels] = useState({ 1: true, 2: true, 3: true, 4: true, 5 :true });
+  const [levels, setLevels] = useState({
+    1: true,
+    2: true,
+    3: true,
+    4: true,
+    5: true,
+  });
   const [categories, setCategories] = useState({
     Research: true,
     Development: true,
@@ -261,26 +267,34 @@ const PharmaProcessTree = () => {
   }, []);
 
   function filterHierarchy(node, levelFilter, nameFilter, level = 1) {
-    if (!levelFilter[level]) {
-        return null;
-    }
-    if (nameFilter[node.name] === false) {
-        return null;
+    if (!levelFilter[level] || nameFilter[node.name] === false) {
+      return null;
     }
     const filteredChildren = node.children
-        .map(child => filterHierarchy(child, levelFilter, nameFilter, level + 1))
-        .filter(child => child !== null);
-    return { name: node.name, children: filteredChildren };
-}
+      ? node.children
+          .map((child) =>
+            filterHierarchy(child, levelFilter, nameFilter, level + 1)
+          )
+          .filter(Boolean)
+      : [];
+    return {
+      name: node.name,
+      children: filteredChildren.length ? filteredChildren : null,
+    };
+  }
 
   useEffect(() => {
-    const treeData = d3.hierarchy(filterHierarchy(jsonData, levels, categories));
+    if (!treeData) return;
+
+    const treeRoot = d3.hierarchy(
+      filterHierarchy(jsonData, levels, categories)
+    );
 
     const width = 1800;
     const height = 2000;
     const margin = { top: 80, right: 80, bottom: 80, left: 200 };
 
-    // Clear previous SVG elements
+    // Clear previous SVG
     d3.select(svgRef.current).selectAll("*").remove();
 
     const svg = d3
@@ -291,34 +305,17 @@ const PharmaProcessTree = () => {
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
     const treeLayout = d3.tree().size([height - 100, width - 900]);
-    const treeDataProcessed = treeLayout(treeData);
+    const treeDataProcessed = treeLayout(treeRoot);
 
     const linkColorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
-    const filteredNodes = treeDataProcessed.descendants()
-    // .filter((d) => {
-    //   if (d.depth === 1) {
-    //     return categories[d.data.name] === true; // ✅ Check if category is enabled
-    //   }
-    //   return levels[d.depth] !== false; // ✅ Keep other levels as per levels config
-    // });
+    const filteredNodes = treeDataProcessed.descendants();
+    const filteredLinks = treeDataProcessed.links();
 
-    const filteredLinks = treeDataProcessed.links()
-    // .filter((d) => {
-    //   if (d.target.depth === 1) {
-    //     return categories[d.target.data.name] === true; // ✅ Ensure links are included only for valid categories
-    //   }
-    //   return levels[d.target.depth] !== false;
-    // });
-
-    // console.log("Filtered Nodes:", filteredNodes);
-    // console.log("Filtered Links:", filteredLinks);
-
-    // **UPDATE LINKS (Remove Old, Add New)**
-    svg.selectAll(".link").remove(); // Clear previous links
+    // Draw Links
     svg
       .selectAll(".link")
-      .data(filteredLinks, (d) => d.target.data.name)
+      .data(filteredLinks)
       .enter()
       .append("path")
       .attr("class", "link")
@@ -333,11 +330,10 @@ const PharmaProcessTree = () => {
           .y((d) => d.x)
       );
 
-    // **UPDATE NODES (Remove Old, Add New)**
-    svg.selectAll(".node").remove(); // Clear previous nodes
+    // Draw Nodes
     const nodeEnter = svg
       .selectAll(".node")
-      .data(filteredNodes, (d) => d.data.name)
+      .data(filteredNodes)
       .enter()
       .append("g")
       .attr("class", "node")
@@ -364,7 +360,7 @@ const PharmaProcessTree = () => {
       .attr("font-size", "11px")
       .attr("fill", "black")
       .text((d) => d.data.name);
-  }, [treeData, levels, categories]); // 🔥 Ensure useEffect runs when categories change
+  }, [treeData, levels, categories]);
 
   const handleLevelChange = (level) => {
     setLevels((prev) => ({ ...prev, [level]: !prev[level] }));
@@ -374,20 +370,38 @@ const PharmaProcessTree = () => {
     setCategories((prev) => ({ ...prev, [category]: !prev[category] }));
   };
 
-  const exportPDF = () => {
-    const svg = svgRef.current;
-    html2canvas(svg).then((canvas) => {
-      const imgData = canvas.toDataURL("image/png");
-      const pdf = new jsPDF({ orientation: "landscape", unit: "px", format: [2200, 2000] });
-      pdf.addImage(imgData, "PNG", 10, 10, 2100, 1900);
-      pdf.save("Pharma_Process_Tree.pdf");
+  const exportPDF = async () => {
+    const svgElement = svgRef.current;
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d");
+
+    canvas.width = 2200;
+    canvas.height = 2000;
+
+    // Convert SVG to Canvas using Canvg
+    const v = await Canvg.from(
+      ctx,
+      new XMLSerializer().serializeToString(svgElement)
+    );
+    await v.render();
+
+    // Convert Canvas to Image
+    const imgData = canvas.toDataURL("image/png");
+    const pdf = new jsPDF({
+      orientation: "landscape",
+      unit: "px",
+      format: [2200, 2000],
     });
+
+    // Add image to PDF and Save
+    pdf.addImage(imgData, "PNG", 10, 10, 2100, 1900);
+    pdf.save("Pharma_Process_Tree.pdf");
   };
 
   return (
     <div ref={containerRef}>
       <div className="treeupload" style={{ float: "left", width: "80%" }}>
-      <div>
+        <div>
           <strong>Filter by Category:</strong>
           {Object.keys(categories).map((category) => (
             <label key={category}>
@@ -417,7 +431,14 @@ const PharmaProcessTree = () => {
       </div>
       <div className="treebtn" style={{ float: "right", width: "20%" }}>
         <button
-          style={{ float: "right", background: "#001ae5", color: "#fff", padding: "6px", border: "none" }}
+          style={{
+            float: "right",
+            background: "#001ae5",
+            color: "#fff",
+            padding: "6px",
+            border: "none",
+            cursor: "pointer",
+          }}
           onClick={exportPDF}
         >
           Export to PDF
@@ -429,3 +450,4 @@ const PharmaProcessTree = () => {
 };
 
 export default PharmaProcessTree;
+
