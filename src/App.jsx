@@ -32,12 +32,12 @@ const onChange = (key) => {
 const items = [
   {
     key: '1',
-    label: 'Single Chain Process',
+    label: 'Multi Chain Process',
     children: <PharmaProcessTree />,
   },
   {
     key: '2',
-    label: 'Multi Chain Process',
+    label: 'Single Chain Process',
     children: <div><TangledTree /> <SunburstChart /></div>,
   },
 ];
