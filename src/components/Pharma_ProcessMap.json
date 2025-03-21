@@ -1,0 +1,832 @@
+{
+    "name": "Pharma Process",
+    "children": [
+      {
+        "name": "Research",
+        "children": [
+          {
+            "name": "Portfolio & Pipeline Management",
+            "children": [
+              {
+                "name": "Strategic Planning",
+                "children": [
+                  {
+                    "name": "Portfolio Prioritization, Budget planning, Resource allocation",
+                    "children": []
+                  },
+                  {
+                    "name": "Competitors Landscape, Risk Benefit analysis, Business alignment",
+                    "children": []
+                  },
+                  {
+                    "name": "Patent validation, clinical competition landscape, is it a drugable target, Market valuation",
+                    "children": []
+                  },
+                  {
+                    "name": "Data-driven evaluation, Milestone tracking, Stakeholder alignment, Decision documentation",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Drug discovery",
+            "children": [
+              {
+                "name": "Therapeutic area: Disease,Target Discovery",
+                "children": [
+                  {
+                    "name": "Target Identification, Target Validation Go/No-Go Decision Framework",
+                    "children": []
+                  },
+                  {
+                    "name": "Computational Drug Design, AI/ML-based Drug Screening, Structure-Based Drug Design",
+                    "children": []
+                  },
+                  {
+                    "name": "Laboratory Information Management System (LIMS) and Sample management",
+                    "children": []
+                  },
+                  {
+                    "name": "High-Throughput Screening (HTS) Medium-Throughput Screening (MTS) Fragment-Based Screening (FBS) High Concentration Screening",
+                    "children": []
+                  },
+                  {
+                    "name": "Hit Identification & Optimization",
+                    "children": []
+                  },
+                  {
+                    "name": "Medicinal chemisty, Lead Compound Optimization and SAR (structure activity relationship)",
+                    "children": []
+                  },
+                  {
+                    "name": "Mechanism of Action (MoA) Studies",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Preclinical development",
+            "children": [
+              {
+                "name": "Preclinical testing",
+                "children": [
+                  {
+                    "name": "Preclinical In vitro and in vivo assays",
+                    "children": []
+                  },
+                  {
+                    "name": "PK-PD studies",
+                    "children": []
+                  },
+                  {
+                    "name": "Toxicology and Safety Assessment,Efficacy Testing",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Process R&D",
+                "children": [
+                  {
+                    "name": "Scaling,  profiling, polymorphism studies",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Documentation",
+                "children": [
+                  {
+                    "name": "Patent filing, regulatory document ",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Development",
+        "children": [
+          {
+            "name": "Project & Portfolio Management",
+            "children": [
+              {
+                "name": "Program Strategy & Planning",
+                "children": [
+                  {
+                    "name": "Define & Revise TA Strategy",
+                    "children": []
+                  },
+                  {
+                    "name": "Define Program Sourcing Strategy",
+                    "children": []
+                  },
+                  {
+                    "name": "Track Program Budget & Resources",
+                    "children": []
+                  },
+                  {
+                    "name": "Manage/Track Clinical Portfolio",
+                    "children": []
+                  },
+                  {
+                    "name": "Manage Program Risks",
+                    "children": []
+                  },
+                  {
+                    "name": "Create Study",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Study Planning",
+            "children": [
+              {
+                "name": "Study Design & Feasibility",
+                "children": [
+                  {
+                    "name": "Evaluate Patient Availability",
+                    "children": []
+                  },
+                  {
+                    "name": "Manage Study Timelines",
+                    "children": []
+                  },
+                  {
+                    "name": "Determine Study countries ",
+                    "children": []
+                  },
+                  {
+                    "name": "Monitoring plan ",
+                    "children": []
+                  },
+                  {
+                    "name": "Develop Protocol & protocol Amendments",
+                    "children": []
+                  },
+                  {
+                    "name": "Develop Enrollment Plan",
+                    "children": []
+                  },
+                  {
+                    "name": "IP shipment standards ",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Vendor Selection",
+                "children": [
+                  {
+                    "name": "Central Lab / Local Lab selection ",
+                    "children": []
+                  },
+                  {
+                    "name": "Lab Contract",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Study Management & Budget",
+                "children": [
+                  {
+                    "name": "Manage Study Budget",
+                    "children": []
+                  },
+                  {
+                    "name": "Review Costs vs. Benchmark",
+                    "children": []
+                  },
+                  {
+                    "name": "Manage Study Resources",
+                    "children": []
+                  },
+                  {
+                    "name": "Product selection",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Eithics Commitee",
+                "children": [
+                  {
+                    "name": "Independent / Institutional Review board ",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Site Identification & Selection",
+                "children": [
+                  {
+                    "name": "Conduct Feasibility Assessments",
+                    "children": []
+                  },
+                  {
+                    "name": "Site Selection",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Site Contracting ",
+                "children": [
+                  {
+                    "name": "Contract Management",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Study Site Initiation ",
+                "children": [
+                  {
+                    "name": "Site initiation ",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "System Setup",
+                "children": [
+                  {
+                    "name": "Study set up ",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Study Conduct",
+            "children": [
+              {
+                "name": "Site Management & Monitoring",
+                "children": [
+                  {
+                    "name": "Manage Site Communication",
+                    "children": []
+                  },
+                  {
+                    "name": "Data Collection",
+                    "children": []
+                  },
+                  {
+                    "name": "Conduct Site Visits",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Patient Recruitment & Retention",
+                "children": [
+                  {
+                    "name": "Develop Recruitment/Retention Strategy",
+                    "children": []
+                  },
+                  {
+                    "name": "Advertising",
+                    "children": []
+                  },
+                  {
+                    "name": "Subject Enrollment",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Site Payments",
+                "children": [
+                  {
+                    "name": "Manage Site Payments",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Data Management",
+                "children": [
+                  {
+                    "name": "Discrepancy management ",
+                    "children": []
+                  },
+                  {
+                    "name": "Conduct Site Visits/SDV",
+                    "children": []
+                  },
+                  {
+                    "name": "Coding",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Document Management",
+                "children": [
+                  {
+                    "name": "Manage TMF",
+                    "children": []
+                  },
+                  {
+                    "name": "Establish eTMF Standards",
+                    "children": []
+                  },
+                  {
+                    "name": "Manage Creation of Clinical Documents",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Drug Supply",
+                "children": [
+                  {
+                    "name": "Manage Drug / Material Supply",
+                    "children": []
+                  },
+                  {
+                    "name": "Track Drug / Material Accountability",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Pharmacovigilence ",
+            "children": [
+              {
+                "name": "Safety Reporting",
+                "children": [
+                  {
+                    "name": "ICSR (Individual case safety report)",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Statistical Analysis",
+            "children": [
+              {
+                "name": "Data Review & Analysis",
+                "children": [
+                  {
+                    "name": "Define Integrated Data Review Plan",
+                    "children": []
+                  },
+                  {
+                    "name": "Interim Lock / Analysis",
+                    "children": []
+                  },
+                  {
+                    "name": "SaS data conversion",
+                    "children": []
+                  },
+                  {
+                    "name": "SaS programming ",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Medical Writing",
+                "children": [
+                  {
+                    "name": "CSR drafting ",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Regulatory ",
+            "children": [
+              {
+                "name": "Regulatory Submission",
+                "children": [
+                  {
+                    "name": "Prepare Regulatory Submission Documents",
+                    "children": []
+                  },
+                  {
+                    "name": "Submit Documents to Regulatory Authorities",
+                    "children": []
+                  },
+                  {
+                    "name": "Respond to Regulatory Queries",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Study Closure & Archival",
+            "children": [
+              {
+                "name": "Site Closure",
+                "children": [
+                  {
+                    "name": "Manage Site Access",
+                    "children": []
+                  },
+                  {
+                    "name": "Resolve Data discrepancies",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Manage DB Lock",
+                "children": [
+                  {
+                    "name": "Lock Clinical Database",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "TMF Closing",
+                "children": [
+                  {
+                    "name": "Review Trial Master File (TMF)",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Audits and Inspections ",
+            "children": [
+              {
+                "name": "Audits",
+                "children": [
+                  {
+                    "name": "SOP compliance ",
+                    "children": []
+                  },
+                  {
+                    "name": "On-site Audits/ Inspections ",
+                    "children": []
+                  },
+                  {
+                    "name": "System Audits ",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Commercial",
+        "children": [
+          {
+            "name": "Sales Operations",
+            "children": [
+              {
+                "name": "Sales Planning",
+                "children": [
+                  {
+                    "name": "Segmentation & Targeting",
+                    "children": []
+                  },
+                  {
+                    "name": "Sales Force Sizing & Structuring",
+                    "children": []
+                  },
+                  {
+                    "name": "Alignment",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Territory and Call Planning",
+                "children": [
+                  {
+                    "name": "Roster Management",
+                    "children": []
+                  },
+                  {
+                    "name": "Call Planning and Execution",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Performance Measurement",
+                "children": [
+                  {
+                    "name": "Goal Setting and Performance Management",
+                    "children": []
+                  },
+                  {
+                    "name": "Incentive Compensation",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Field Performance Reporting",
+                "children": [
+                  {
+                    "name": "Home Office and Field Reporting",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Field Communications and Engagements",
+                "children": [
+                  {
+                    "name": "Notifications and Feedback",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Physician engagement",
+                "children": [
+                  {
+                    "name": "Direct engagement",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Marketing",
+            "children": [
+              {
+                "name": "Market Opportunity Assessment",
+                "children": [
+                  {
+                    "name": "Market Research\n",
+                    "children": []
+                  },
+                  {
+                    "name": "Portfolio Evaluation and Management",
+                    "children": []
+                  },
+                  {
+                    "name": "Pipeline Portfolio Assessment",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Commercialization strategy",
+                "children": [
+                  {
+                    "name": "Forecasting",
+                    "children": []
+                  },
+                  {
+                    "name": "Brand Strategy",
+                    "children": []
+                  },
+                  {
+                    "name": "Customer Segmentation and Targeting",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Marketing Campaigns",
+                "children": [
+                  {
+                    "name": " Channel Strategy",
+                    "children": []
+                  },
+                  {
+                    "name": "Content Creation and Optimization",
+                    "children": []
+                  },
+                  {
+                    "name": "Omnichannel Marketing",
+                    "children": []
+                  },
+                  {
+                    "name": "Social Media Strategy",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "KOL Engagement",
+                "children": [
+                  {
+                    "name": "KOL Identification ",
+                    "children": []
+                  },
+                  {
+                    "name": "KOL Relationship Development and Management",
+                    "children": []
+                  },
+                  {
+                    "name": "KOL Influence Measurement",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Physician Engagement",
+                "children": [
+                  {
+                    "name": "Event/Congress/Symposiums, Conference/CME/",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Patient Programs",
+                "children": [
+                  {
+                    "name": "Disease Awareness Campaigns",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Product Launch",
+                "children": [
+                  {
+                    "name": "Launch Planning & Execution",
+                    "children": []
+                  },
+                  {
+                    "name": "Post - Launch ",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Marketing Analytics",
+                "children": [
+                  {
+                    "name": "Campaign Performance Metrics",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Marketing Operations",
+                "children": [
+                  {
+                    "name": "Supply Chain Optimization and Inventory Management",
+                    "children": []
+                  },
+                  {
+                    "name": "Vendor/Agency Management",
+                    "children": []
+                  },
+                  {
+                    "name": "Financial Forecasting",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Market Access",
+            "children": [
+              {
+                "name": "Stakeholder Engagement (public/private payers, government health bodies, formulary committees, hospitals, clinicians, and patient advocacy groups)",
+                "children": [
+                  {
+                    "name": "Stakeholder Mapping and Analysis",
+                    "children": []
+                  },
+                  {
+                    "name": "Payer Segmentation",
+                    "children": []
+                  },
+                  {
+                    "name": "Value Proposition Development",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Pricing and Reimbursement",
+                "children": [
+                  {
+                    "name": "Pricing Strategy",
+                    "children": []
+                  },
+                  {
+                    "name": "Negotiation strategy and Reimbursement Planning",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Market Access Operations",
+                "children": [
+                  {
+                    "name": "Stakeholder Engagement",
+                    "children": []
+                  },
+                  {
+                    "name": "Tender Management",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Coverage Optimization",
+                "children": [
+                  {
+                    "name": "Formulary Management",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Market Monitoring and Performance Tracking",
+                "children": [
+                  {
+                    "name": "Market Access Metrics",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Patient Engagement",
+                "children": [
+                  {
+                    "name": "Patient Support Programs (PSPs)",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Medical Affairs",
+            "children": [
+              {
+                "name": "Scientific Communication and Medical Messaging",
+                "children": [
+                  {
+                    "name": "Scientific Messaging",
+                    "children": []
+                  },
+                  {
+                    "name": "Support to MSL",
+                    "children": []
+                  },
+                  {
+                    "name": "RWE and Data Generation",
+                    "children": []
+                  },
+                  {
+                    "name": "Publications and Thought Leadership",
+                    "children": []
+                  },
+                  {
+                    "name": "PV and AE Monitoring",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Supply Chain Management",
+            "children": [
+              {
+                "name": "Drug Distribution",
+                "children": [
+                  {
+                    "name": "Multi-tier Distribution",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

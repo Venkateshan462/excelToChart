@@ -1,0 +1,115 @@
+{
+    "name": "Pharma Process",
+    "children": [
+      {
+        "name": "Research",
+        "children": [
+          {
+            "name": "Portfolio & Pipeline Management",
+            "children": [
+              {
+                "name": "Strategic Planning",
+                "children": [
+                  {
+                    "name": "Portfolio Prioritization, Budget planning, Resource allocation",
+                    "children": []
+                  },
+                  {
+                    "name": "Competitors Landscape, Risk Benefit analysis, Business alignment",
+                    "children": []
+                  },
+                  {
+                    "name": "Patent validation, clinical competition landscape, is it a drugable target, Market valuation",
+                    "children": []
+                  },
+                  {
+                    "name": "Data-driven evaluation, Milestone tracking, Stakeholder alignment, Decision documentation",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Drug discovery",
+            "children": [
+              {
+                "name": "Therapeutic area: Disease,Target Discovery",
+                "children": [
+                  {
+                    "name": "Target Identification, Target Validation Go/No-Go Decision Framework",
+                    "children": []
+                  },
+                  {
+                    "name": "Computational Drug Design, AI/ML-based Drug Screening, Structure-Based Drug Design",
+                    "children": []
+                  },
+                  {
+                    "name": "Laboratory Information Management System (LIMS) and Sample management",
+                    "children": []
+                  },
+                  {
+                    "name": "High-Throughput Screening (HTS) Medium-Throughput Screening (MTS) Fragment-Based Screening (FBS) High Concentration Screening",
+                    "children": []
+                  },
+                  {
+                    "name": "Hit Identification & Optimization",
+                    "children": []
+                  },
+                  {
+                    "name": "Medicinal chemisty, Lead Compound Optimization and SAR (structure activity relationship)",
+                    "children": []
+                  },
+                  {
+                    "name": "Mechanism of Action (MoA) Studies",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Preclinical development",
+            "children": [
+              {
+                "name": "Preclinical testing",
+                "children": [
+                  {
+                    "name": "Preclinical In vitro and in vivo assays",
+                    "children": []
+                  },
+                  {
+                    "name": "PK-PD studies",
+                    "children": []
+                  },
+                  {
+                    "name": "Toxicology and Safety Assessment,Efficacy Testing",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Process R&D",
+                "children": [
+                  {
+                    "name": "Scaling,  profiling, polymorphism studies",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Documentation",
+                "children": [
+                  {
+                    "name": "Patent filing, regulatory document ",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
