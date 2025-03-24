@@ -26,19 +26,21 @@ import SunburstChart from "./components/d3/SunburstChart";
 import MultiSheetExcelToJson from "./components/multiSheet/MultiSheetExcelToJson";
 import PharmaProcessTree from "./components/multiSheet/pharmaprocesstree";
 // import ExcelToJson from "./components/ExcelToJson";
+import TreeView from './components/charts/TreeView';
 const onChange = (key) => {
   console.log(key);
 };
 const items = [
   {
     key: '1',
-    label: 'Multi Chain Process',
+    label: 'All Value chains',
     children: <PharmaProcessTree />,
   },
   {
     key: '2',
-    label: 'Single Chain Process',
-    children: <div><TangledTree /> <SunburstChart /></div>,
+    label: 'By Value chain',
+    // children: <div><TangledTree /> <SunburstChart /></div>,
+    children: <div><TreeView /></div>
   },
 ];
 const App = () => <Tabs defaultActiveKey="1" items={items} onChange={onChange} />;

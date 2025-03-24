@@ -416,17 +416,18 @@ const PharmaProcessTree = () => {
         </div>
         <div>
           <strong>Filter by Level:</strong>
-          {Object.keys(levels).map((level) => (
-            <label key={level}>
-              <input
-                type="checkbox"
-                checked={levels[level]}
-                onChange={() => handleLevelChange(level)}
-                disabled={level === "1"}
-              />{" "}
-              Level {level}
-            </label>
-          ))}
+          {Object.keys(levels).map((level) =>
+            level === "1" || level === "2" ? null : ( // Hides Level 1 & Level 2
+              <label key={level}>
+                <input
+                  type="checkbox"
+                  checked={levels[level]}
+                  onChange={() => handleLevelChange(level)}
+                />{" "}
+                Level {level - 2}
+              </label>
+            )
+          )}
         </div>
       </div>
       <div className="treebtn" style={{ float: "right", width: "20%" }}>
@@ -450,4 +451,5 @@ const PharmaProcessTree = () => {
 };
 
 export default PharmaProcessTree;
+
 
