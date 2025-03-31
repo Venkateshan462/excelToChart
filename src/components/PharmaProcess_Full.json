@@ -1,0 +1,1871 @@
+{
+  "name": "Pharma Process",
+  "children": [
+    {
+      "name": "Research",
+      "children": [
+        {
+          "name": "Portfolio & Pipeline Management\n",
+          "children": [
+            {
+              "name": "Strategic Planning",
+              "children": [
+                {
+                  "name": "Portfolio Prioritization, Budget planning, Resource allocation",
+                  "children": [
+                    {
+                      "name": "-",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Competitors Landscape, Risk Benefit analysis, Business alignment",
+                  "children": [
+                    {
+                      "name": "-",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Patent validation, clinical competition landscape, is it a drugable target, Market valuation",
+                  "children": [
+                    {
+                      "name": "-",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Data-driven evaluation, Milestone tracking, Stakeholder alignment, Decision documentation",
+                  "children": [
+                    {
+                      "name": "-",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Drug discovery ",
+          "children": [
+            {
+              "name": "Therapeutic area: Disease,Target Discovery",
+              "children": [
+                {
+                  "name": "Target Identification, Target Validation\nGo/No-Go Decision Framework",
+                  "children": [
+                    {
+                      "name": "Pathogenesis of disease",
+                      "children": []
+                    },
+                    {
+                      "name": "Target selection, Biomarker discovery,  Molecular biology studies",
+                      "children": []
+                    },
+                    {
+                      "name": "Cell Biology (cell cycle, cell proliferation, apotosis) ",
+                      "children": []
+                    },
+                    {
+                      "name": "Flow cytometry in case of Oncology research",
+                      "children": []
+                    },
+                    {
+                      "name": "Microbiolgy studies in case of infectious disease",
+                      "children": []
+                    },
+                    {
+                      "name": "Recombinant protein production",
+                      "children": []
+                    },
+                    {
+                      "name": "Knockout and knock down studies to validate the target",
+                      "children": []
+                    },
+                    {
+                      "name": "Assay development",
+                      "children": []
+                    },
+                    {
+                      "name": "Data validation, Prioritization, first in class validation",
+                      "children": []
+                    },
+                    {
+                      "name": "Medicinal chemisitry to study if it is a druggable target",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Computational Drug Design, AI/ML-based Drug Screening, Structure-Based Drug Design",
+                  "children": [
+                    {
+                      "name": "Data mining,  medicinal chemist design molecules based on patents",
+                      "children": []
+                    },
+                    {
+                      "name": "Homology modelling, virtual drug binding studies, Virtual screening, understand the target protein and its pathways, Computational simulations,",
+                      "children": []
+                    },
+                    {
+                      "name": "Molecular docking, Repurposing of drug",
+                      "children": []
+                    },
+                    {
+                      "name": "Hit identification,  Structure refinement, 3D protein sturcture modelling with coordinate from protein data base",
+                      "children": []
+                    },
+                    {
+                      "name": "Lead optimization, QSAR modeling",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Laboratory Information Management System (LIMS) and Sample management",
+                  "children": [
+                    {
+                      "name": "Sample tracking and management",
+                      "children": []
+                    },
+                    {
+                      "name": "Data storage and retrieval",
+                      "children": []
+                    },
+                    {
+                      "name": "Workflow automation",
+                      "children": []
+                    },
+                    {
+                      "name": "Regulatory compliance reporting",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "High-Throughput Screening (HTS)\nMedium-Throughput Screening (MTS)\nFragment-Based Screening (FBS)\nHigh Concentration Screening",
+                  "children": [
+                    {
+                      "name": "Library Screening, Fragment based screening, high concentration X-ray screening ",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Hit Identification & Optimization",
+                  "children": [
+                    {
+                      "name": "Assay execution, Data analysis, Hit validation, hit to lead chemistry, resynthesis of hits",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Medicinal chemisty, Lead Compound Optimization and SAR (structure activity relationship)",
+                  "children": [
+                    {
+                      "name": "Synthesis of Hit to Lead, ",
+                      "children": []
+                    },
+                    {
+                      "name": "Structure-activity relationship (SAR), ADME profiling, Safety assessment, PK-PD studies, animal model on two species. Microsomal studies, CYP studies, Iterative testing",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Mechanism of Action (MoA) Studies",
+                  "children": [
+                    {
+                      "name": "Molecular biology studies to understand the target pathway and Functional assays",
+                      "children": []
+                    },
+                    {
+                      "name": "Hit confirmation thorugh enzyme assays, Biochemical characterization, Pathway analysis.",
+                      "children": []
+                    },
+                    {
+                      "name": "Off-target assessment",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Preclinical development",
+          "children": [
+            {
+              "name": "Preclinical testing",
+              "children": [
+                {
+                  "name": "Preclinical In vitro and in vivo assays",
+                  "children": [
+                    {
+                      "name": "In vitro, in vivo assays, Animal model validation, Dose-response studies",
+                      "children": []
+                    },
+                    {
+                      "name": "Biomarker evaluation",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Pharmacokinetic and pharmacodynamic (PK-PD) , solubility and ADME studies",
+                  "children": [
+                    {
+                      "name": "PK/PD evaluation, allometric scaling, ADME and solubility studies",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Toxicology and Safety Assessment,Efficacy Testing",
+                  "children": [
+                    {
+                      "name": "Acute toxicity studies, Chronic toxicity studies, animal studies in three to four species, teratogenicity studies, geno toxicity studies, metabolite studies",
+                      "children": []
+                    },
+                    {
+                      "name": "Study reporting, Regulatory compliance",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pharma Process",
+              "children": [
+                {
+                  "name": "Scale up from mg to kg scale, impurity profiling, polymorphism studies",
+                  "children": [
+                    {
+                      "name": "Formulation studies, Drug formulation API and drug product stability",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Process R&D",
+              "children": [
+                {
+                  "name": "Scale up from mg to kg scale, impurity profiling, polymorphism studies",
+                  "children": [
+                    {
+                      "name": "Solubility studies, particle size characterisation,  Polymorphism",
+                      "children": []
+                    },
+                    {
+                      "name": "Scaling up from mg to kg scale",
+                      "children": []
+                    },
+                    {
+                      "name": "Identitying drug impurities and laboratory scale synthesis of impurity",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Documentation",
+              "children": [
+                {
+                  "name": "Patent filing, regulatory document ",
+                  "children": [
+                    {
+                      "name": "IND (Investigational New Drug) Application, Preclinical regulatory support, Clinical trial protocols",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Development",
+      "children": [
+          {
+            "name": "Project & Portfolio Management",
+            "children": [
+              {
+                "name": "Program Strategy & Planning",
+                "children": [
+                  {
+                    "name": "Define & Revise TA Strategy",
+                    "children": [
+                      {
+                        "name": "Develop therapeutic area strategy",
+                        "children": []
+                      },
+                      {
+                        "name": "Revise strategy based on new data and insights",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Define Program Sourcing Strategy",
+                    "children": [
+                      {
+                        "name": "Identify sourcing needs",
+                        "children":[]
+                      },
+                      {
+                        "name": "Develop sourcing plans",
+                        "children": []
+                      },
+                      {
+                        "name": "Manage vendor relationships",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Track Program Budget & Resources",
+                    "children": [
+                      {
+                        "name": "Develop program budget",
+                        "children":[]
+                      },
+                      {
+                        "name": "Monitor budget and resource allocation",
+                        "children":[]
+                      },
+                      {
+                        "name": "Adjust budget as needed",
+                        "children":[]
+                      },
+                      {
+                        "name":"Resource allocation for Program / Project & Workspackages (Studies)",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Manage/Track Clinical Portfolio",
+                    "children": [
+                      {
+                        "name": "Manage portfolio of clinical programs",
+                        "children": []
+                      },
+                      {
+                        "name": "Track progress of clinical studies",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Manage Program Risks",
+                    "children": [
+                      {
+                        "name": "Identify potential risks",
+                        "children": []
+                      },
+                      {
+                        "name": "Develop risk mitigation strategies",
+                        "children":[]
+                      },
+                      {
+                        "name": "Monitor and manage risks throughout the program",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Create Study",
+                    "children": [
+                      {
+                        "name": "Create Project",
+                        "children":[]
+                      },
+                      {
+                        "name": "Create Study",
+                        "children":[]
+                      },
+                      {
+                        "name": "Register clinical trial with regulatory authorities",
+                        "children":[]
+                      },
+                      {
+                        "name": "Plan Study level budget & resourcing",
+                        "children":[]
+                      },
+                      {
+                        "name": "Planning of major milestones for studies",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Study Planning",
+            "children": [
+              {
+                "name": "Study Design & Feasibility",
+                "children": [
+                  {
+                    "name": "Evaluate Patient Availability",
+                    "children": [
+                      {
+                        "name": "Assess patient population across globe",
+                        "children":[]
+                      },
+                      {
+                        "name": "Determine patient recruitment feasibility",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Manage Study Timelines",
+                    "children": [
+                      {
+                        "name": "Develop study timelines",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Determine Study countries ",
+                    "children": [
+                      {
+                        "name": "Based on objective of demographic study analysis and Marketing stratergies, determine the countries where Study need to be conducted",
+                        "children":[]
+                      },
+                      {
+                        "name": "Initiate Document submissions to  Regulatory agencies",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Monitoring plan ",
+                    "children": [
+                      {
+                        "name": "Monitor and adjust timelines as needed",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Develop Protocol & protocol Amendments",
+                    "children": [
+                      {
+                        "name":"Develop protocol / protocol amendments",
+                        "children":[]
+                      },
+                      {
+                        "name":"Implement changes to protocols, amend protocol",
+                        "children":[]
+                      },
+                      {
+                        "name":"Gather feedback on scientific design",
+                        "children":[]
+                      },
+                      {
+                        "name":"Create / update Study Design",
+                        "children":[]
+                      },
+                      {
+                        "name":"Develop Data Management Plan",
+                        "children":[]
+                      },
+                      {
+                        "name":"Create risk-based monitoring plan, Implement monitoring activities",
+                        "children":[]
+                      },
+                      {
+                        "name":"Develop Enrollment Plan",
+                        "children":[]
+                      },
+                      {
+                        "name":"Develop Randomization Plan",
+                        "children":[]
+                      },
+                      {
+                        "name":"Develop Statiscal Analysis plan",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Develop Enrollment Plan",
+                    "children": [
+                      {
+                        "name":"Create patient enrollment plan for each site",
+                        "children":[]
+                      },
+                      {
+                        "name":"Create Site IDs and Subject IDs for capturing data",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "IP shipment standards ",
+                    "children": [
+                      {
+                        "name":"Plan Study drug availability batch and shipment as per dispensing milestones",
+                        "children":[]
+                      },
+                      {
+                        "name":"Coordinate and track drug shipment. follow escalation channel",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Vendor Selection",
+                "children": [
+                  {
+                    "name": "Central Lab / Local Lab selection ",
+                    "children": [
+                      {
+                        "name":"Vendor selection based on organizational norms",
+                        "children":[]
+                      },
+                      {
+                        "name":"Contracts sign off",
+                        "children":[]
+                      },
+                      {
+                        "name":"Vendor selection based on Regulatory compliance, Accreditation, Data integration capability with EDC platform, LIMS standards, Data integrity and security, cold chain logistics ",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Lab Contract",
+                    "children": [
+                      {
+                        "name":"Contarct sign off, Set data collection and data transfer expectations as per protocol through trainings",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Study Management & Budget",
+                "children": [
+                  {
+                    "name": "Manage Study Budget",
+                    "children": [
+                      {
+                        "name":"Develop study budget",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Review Costs vs. Benchmark",
+                    "children": [
+                      {
+                        "name":"Compare study costs to industry benchmarks",
+                        "children":[]
+                      },
+                      {
+                        "name":"Adjust budget based on findings",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Manage Study Resources",
+                    "children": [
+                      {
+                        "name":"Allocate study resources",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Product selection",
+                    "children": [
+                      {
+                        "name":"Identify the platforms to be used in clinical study exeution (CTMS, EDC, PV, Data analysis) or will it be outsourced",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Eithics Commitee",
+                "children": [
+                  {
+                    "name": "Independent / Institutional Review board ",
+                    "children": [
+                      {
+                        "name":"Identify Independent / Institutional Review board based on the reputation and track records/ Experience and diversity, TAT. Gather information on the composition of commitee members",
+                        "children":[]
+                      },
+                      {
+                        "name":"Submit Study Documents like Protocol & amendments, Informed consent form Discuss Study objective and provision for patient safety",
+                        "children":[]
+                      },
+                      {
+                        "name":"Obtain Ethics Approval. Keep them in loop for any ADR",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Site Identification & Selection",
+                "children": [
+                  {
+                    "name": "Conduct Feasibility Assessments",
+                    "children": [
+                      {
+                        "name":"Evaluate site capabilities, Assess patient population availability based on Therapeutic area",
+                        "children":[]
+                      },
+                      {
+                        "name":"Assess Site Qualification as per Study specific checklist (for eg. equipments, cold storage, pharmacy and dispensing, expertise and experienced staff, facility for inhouse lab assessments, Lab standards)",
+                        "children":[]
+                      },
+                      {
+                        "name":"Conduct Site Visit to review site infrastructure and resources, staff qualification, experience",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Site Selection",
+                    "children": [
+                      {
+                        "name":"Decision on Site Selection - Select / Reject / On Hold",
+                        "children":[]
+                      },
+                      {
+                        "name":"Select high performing site as per Protocol requirements",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Site Contracting ",
+                "children": [
+                  {
+                    "name": "Contract Management",
+                    "children": [
+                      {
+                        "name":"Confirm site readiness",
+                        "children":[]
+                      },
+                      {
+                        "name":"Draft contract ",
+                        "children":[]
+                      },
+                      {
+                        "name":"Review and finalize site contract",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Study Site Initiation ",
+                "children": [
+                  {
+                    "name": "Site initiation ",
+                    "children": [
+                      {
+                        "name":"Plan Site initiation visit, perform Regulatory documents review/ SOPs",
+                        "children":[]
+                      },
+                      {
+                        "name":"Train site staff on Protocol, CRF, patient diaries, equipment usage, sample data collection, IP management, query handling, AE reporting, Concomitant medications",
+                        "children":[]
+                      },
+                      {
+                        "name":"logistic arrangements at site",
+                        "children":[]
+                      },
+                      {
+                        "name":"Prepare monitoring report",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "System Setup",
+                "children": [
+                  {
+                    "name": "Study set up ",
+                    "children": [
+                      {
+                        "name":"eCRF design as per Data Standards specifications, IRT system & setup of any other setup & configuration required ",
+                        "children":[]
+                      },
+                      {
+                        "name":"Edit check development as per study protocol",
+                        "children":[]
+                      },
+                      {
+                        "name":"Pragramming and testing edit checks",
+                        "children":[]
+                      },
+                      {
+                        "name":"Go live on Production environment",
+                        "children":[]
+                      },
+                      {
+                        "name":"Handling site technical queries and Post production changes in programing",
+                        "children":[]
+                      },
+                      {
+                        "name":"Data Transfer Specifications -Test data transfer to validate sample result flow",
+                        "children":[]
+                      },
+                      {
+                        "name":"Resolve discrepancy if any through continuous monitoring",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Study Conduct",
+            "children": [
+              {
+                "name": "Site Management & Monitoring",
+                "children": [
+                  {
+                    "name": "Manage Site Communication",
+                    "children": [
+                      {
+                        "name":"Maintain communication with study sites",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Data Collection",
+                    "children": [
+                      {
+                        "name":"Data Entry by Site - EDC, Patient Diaries & Safety reporting",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Conduct Site Visits",
+                    "children": [
+                      {
+                        "name":"Perform Monitoring checks as per the Monitoring / Risk based Monitoring plan",
+                        "children":[]
+                      },
+                      {
+                        "name":"Perform source data verification (SDV), Collect Clinical Data from Sites, Clean and validate data",
+                        "children":[]
+                      },
+                      {
+                        "name":"Drug / Material inventory check & management",
+                        "children":[]
+                      },
+                      {
+                        "name":"Report Site & Patient Compliance",
+                        "children":[]
+                      },
+                      {
+                        "name":"File protocol deviations",
+                        "children":[]
+                      },
+                      {
+                        "name":"Safety Monitoring",
+                        "children":[]
+                      },
+                      {
+                        "name":"Monitor resource utilization",
+                        "children":[]
+                      },
+                      {
+                        "name":"Monitor study expenses",
+                        "children":[]
+                      },
+                      {
+                        "name":"Create & submit monitoring reports",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Patient Recruitment & Retention",
+                "children": [
+                  {
+                    "name": "Develop Recruitment/Retention Strategy",
+                    "children": [
+                      {
+                        "name":"Create patient recruitment strategy, Implement retention activities",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Advertising",
+                    "children": [
+                      {
+                        "name":"Develop advertising materials, Execute advertising campaigns",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Subject Enrollment",
+                    "children": [
+                      {
+                        "name":"Enroll Subjects as per Study Protocol (Inc / Ex criteria)",
+                        "children":[]
+                      },
+                      {
+                        "name":"Monitor enrollment progress",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Site Payments",
+                "children": [
+                  {
+                    "name": "Manage Site Payments",
+                    "children": [
+                      {
+                        "name":"Process payments to study sites",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Data Management",
+                "children": [
+                  {
+                    "name": "Discrepancy management ",
+                    "children": [
+                      {
+                        "name":"Collect clinical data from sites, Clean and validate data",
+                        "children":[]
+                      },
+                      {
+                        "name":"SAE data reconciliation",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Conduct Site Visits/SDV",
+                    "children": [
+                      {
+                        "name":"Conduct site visits, Perform source data verification (SDV)",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Coding",
+                    "children": [
+                      {
+                        "name":"Medical coding ",
+                        "children":[]
+                      },
+                      {
+                        "name":"Thesaurus management",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Document Management",
+                "children": [
+                  {
+                    "name": "Manage TMF",
+                    "children": [
+                      {
+                        "name":"Manage Trial Master File (TMF)",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Establish eTMF Standards",
+                    "children": [
+                      {
+                        "name":"Establish electronic TMF standards",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Manage Creation of Clinical Documents",
+                    "children": [
+                      {
+                        "name":"Manage creation of clinical documents",
+                        "children":[]
+                      },
+                      {
+                        "name":"Keep the eTMF updated for any Audit/ inspections",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Drug Supply",
+                "children": [
+                  {
+                    "name": "Manage Drug / Material Supply",
+                    "children": [
+                      {
+                        "name":"Manage delivery and handling of IP / drug",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Track Drug / Material Accountability",
+                    "children": [
+                      {
+                        "name":"Ensure accurate tracking of drug dispensation and usage",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Pharmacovigilence ",
+            "children": [
+              {
+                "name": "Safety Reporting",
+                "children": [
+                  {
+                    "name": "ICSR (Individual case safety report)",
+                    "children": [
+                      {
+                        "name":"Receive reported event information",
+                        "children":[]
+                      },
+                      {
+                        "name":"Case validity assessment",
+                        "children":[]
+                      },
+                      {
+                        "name":"Event classification",
+                        "children":[]
+                      },
+                      {
+                        "name":"Medical coding",
+                        "children":[]
+                      },
+                      {
+                        "name":"Causality assessment",
+                        "children":[]
+                      },
+                      {
+                        "name":"Seriousness assessment",
+                        "children":[]
+                      },
+                      {
+                        "name":"Case triaging",
+                        "children":[]
+                      },
+                      {
+                        "name":"Signal detection",
+                        "children":[]
+                      },
+                      {
+                        "name":"Reporting to Regulatory agencies",
+                        "children":[]
+                      },
+                      {
+                        "name":"Writting narrative",
+                        "children":[]
+                      },
+                      {
+                        "name":"Communications to sites",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Statistical Analysis",
+            "children": [
+              {
+                "name": "Data Review & Analysis",
+                "children": [
+                  {
+                    "name": "Define Integrated Data Review Plan",
+                    "children": [
+                      {
+                        "name":"Define integrated data review plan",
+                        "children":[]
+                      },
+                      {
+                        "name":"Leverage automated data review tools",
+                        "children":[]
+                      },
+                      {
+                        "name":"Create mock shells",
+                        "children":[]
+                      },
+                      {
+                        "name":"Validate program output with dummy data",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Interim Lock / Analysis",
+                    "children": [
+                      {
+                        "name":"Perform interim lock on clinical data",
+                        "children":[]
+                      },
+                      {
+                        "name":"Review and analysis",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "SaS data conversion",
+                    "children": [
+                      {
+                        "name":"Generate Tables, Listings and figures for trend analysis",
+                        "children":[]
+                      },
+                      {
+                        "name":"Extract data at regular intervals and once the DB is locked ",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "SaS programming ",
+                    "children": [
+                      {
+                        "name":"Convert Data in SDTM format",
+                        "children":[]
+                      },
+                      {
+                        "name":"Transform data in ADaM data sets ",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Medical Writing",
+                "children": [
+                  {
+                    "name": "CSR drafting ",
+                    "children": [
+                      {
+                        "name":"Statistical analysis and medical reporting",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Regulatory ",
+            "children": [
+              {
+                "name": "Regulatory Submission",
+                "children": [
+                  {
+                    "name": "Prepare Regulatory Submission Documents",
+                    "children": [
+                      {
+                        "name":"Prepare regulatory submission documents",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Submit Documents to Regulatory Authorities",
+                    "children": [
+                      {
+                        "name":"Submit documents to regulatory authorities",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Respond to Regulatory Queries",
+                    "children": [
+                      {
+                        "name":"Respond to regulatory queries",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Study Closure & Archival",
+            "children": [
+              {
+                "name": "Site Closure",
+                "children": [
+                  {
+                    "name": "Manage Site Access",
+                    "children": [
+                      {
+                        "name":"Manage site access",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Resolve Data discrepancies",
+                    "children": [
+                      {
+                        "name":"Reconcile distributed drugs",
+                        "children":[]
+                      },
+                      {
+                        "name":"Retain/Destroy Drug Product",
+                        "children":[]
+                      },
+                      {
+                        "name":"Resolve open queries, Protocol Deviations",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Manage DB Lock",
+                "children": [
+                  {
+                    "name": "Lock Clinical Database",
+                    "children": [
+                      {
+                        "name":"Lock Clinical Database",
+                        "children":[]
+                      },
+                      {
+                        "name":"Ensure the integrity of locked data",
+                        "children":[]
+                      },
+                      {
+                        "name":"Generate final listings of collected data - TFL, SDTM, ADaM",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TMF Closing",
+                "children": [
+                  {
+                    "name": "Review Trial Master File (TMF)",
+                    "children": [
+                      {
+                        "name":"Ensure All Documents are Complete",
+                        "children":[]
+                      },
+                      {
+                        "name":"Once study is locked, convert eCRFs in PDF and upload/ maintain in eTMF",
+                        "children":[]
+                      },
+                      {
+                        "name":"Archive TMF",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Audits and Inspections ",
+            "children": [
+              {
+                "name": "Audits",
+                "children": [
+                  {
+                    "name": "SOP compliance ",
+                    "children": [
+                      {
+                        "name":"Evidences of Review Approval process/ Sign off process",
+                        "children":[]
+                      },
+                      {
+                        "name":"Training file compliance of every resouce working in study",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "On-site Audits/ Inspections ",
+                    "children": [
+                      {
+                        "name":"Data integrity, Patient safety, Documentation review, IP handling and monitoring report",
+                        "children":[]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "System Audits ",
+                    "children": [
+                      {
+                        "name":"As per GCP and 21 CFR part 11 standards, Verifiction of documentation",
+                        "children":[]
+                      },
+                      {
+                        "name":"Prepare Audit or Inspection report, share with sponsors/ CRO/ Sites",
+                        "children":[]
+                      },
+                      {
+                        "name":"Document Corrective & Preventive actions",
+                        "children":[]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+    },
+    {
+      "name": "Commercial",
+      "children": [
+        {
+          "name": "Sales Operations",
+          "children": [
+            {
+              "name": "Sales Planning",
+              "children": [
+                {
+                  "name": "Segmentation & Targeting",
+                  "children": [
+                    {
+                      "name": "Customer segmentation, Identify High Value Targets, Dynamic Segmentation & Targeting",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Sales Force Sizing & Structuring",
+                  "children": [
+                    {
+                      "name": "Field Force Sizing, Field Force Structuring, Sales force training",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Alignment",
+                  "children": [
+                    {
+                      "name": "Manage Geo Alignment, Manage Customer Alignment",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Territory and Call Planning",
+              "children": [
+                {
+                  "name": "Roster Management",
+                  "children": [
+                    {
+                      "name": "Manage Territory Information, Managing Employee Information and Team Structure, Manage Assignment Information",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Call Planning and Execution",
+                  "children": [
+                    {
+                      "name": "Dynamic call planning using Segmentation and Targeting, Call Plan Analysis, Field Feedback/Refinements, Update Call Frequency information, Provide Channel Preference, Call Plan Diagnostics, Sample management",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Performance Measurement",
+              "children": [
+                {
+                  "name": "Goal Setting and Performance Management",
+                  "children": [
+                    {
+                      "name": "Sales Forecasting, Defining clear sales targets and key performance indicators, Goal Refinement,Monitoring sales performance, Course Correction indication",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Incentive Compensation",
+                  "children": [
+                    {
+                      "name": "IC Plan Design, Input Validation, Output Validation, Perform Sales Crediting,Determine Eligibility, Incentive Calculations Administration, Manage Contests and Payroll, Accruals, Outliers analysis",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Field Performance Reporting",
+              "children": [
+                {
+                  "name": "Home Office and Field Reporting",
+                  "children": [
+                    {
+                      "name": "Plan Performance Report, Scorecards, IC Calculators, Goal Cards, Weekly/Monthly Performance Reports, Ad hoc reports",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Field Communications and Engagements",
+              "children": [
+                {
+                  "name": "Notifications and Feedback",
+                  "children": [
+                    {
+                      "name": "Periodic Rep Alerts about performance, Product information, patient enrollment, promotional plan information and customer inquiries, Conveying valuable customer feedback to Home office   ",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Physician engagement",
+              "children": [
+                {
+                  "name": "Direct engagement",
+                  "children": [
+                    {
+                      "name": "Speaker Programs, Congress, Symposiums",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Marketing",
+          "children": [
+            {
+              "name": "Market Opportunity Assessment",
+              "children": [
+                {
+                  "name": "Market Research\n",
+                  "children": [
+                    {
+                      "name": "Primary and secondary research, KOL interviews, patient/physician surveys",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Portfolio Evaluation and Management",
+                  "children": [
+                    {
+                      "name": "Existing portfolio sales analysis,  Portfolio Pipeline planning ",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Pipeline Portfolio Assessment",
+                  "children": [
+                    {
+                      "name": "Epidemiology studies,  Market Potential, Competitive landscape, Regulatory and Legal considerations, Market Access,  Clinical Trials Milestones and Timelines analysis",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Commercialization strategy",
+              "children": [
+                {
+                  "name": "Forecasting",
+                  "children": [
+                    {
+                      "name": "Economic and Commercial Viability (Revenue Forecasting, Cost of Goods Sold and Profit Margins & ROI)",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Brand Strategy",
+                  "children": [
+                    {
+                      "name": "Product positioning, lifecycle planning, competitive analysis, Portfolio redesign,  Brand Differentiation, Brand Extension Planning, New indications",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Customer Segmentation and Targeting",
+                  "children": [
+                    {
+                      "name": "Customer demographics,  Customer Prescription habits",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Marketing Campaigns",
+              "children": [
+                {
+                  "name": " Channel Strategy",
+                  "children": [
+                    {
+                      "name": "Identification of channel preference,  HCP-engagement tactics such as RTE, HCP/Patient/Caregiver Portals, e-mail campaigns, events, in -person, social media",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Content Creation and Optimization",
+                  "children": [
+                    {
+                      "name": "Dynamic content creation of HCP and patient materials, videos, and infographics based on the preferences/ needs,  Content format selection, Journals/Publications",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Omnichannel Marketing",
+                  "children": [
+                    {
+                      "name": "Omnichannel orchestration, Campaign planning across digital, print, and event-based platforms, SEM/SEO, programmatic ads, web presence tracking, Next Best Action , Managing event, logistics for HCP engagement tactics (e.g. Creating content for Webinar, Speaker Program, Congress etc.)",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Social Media Strategy",
+                  "children": [
+                    {
+                      "name": "Social Media Engagement Rate, Post engagement, Social Media Referral Traffic, Sentiment Analysis, Influencer partnerships and Campaign ROI",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "KOL Engagement",
+              "children": [
+                {
+                  "name": "KOL Identification ",
+                  "children": [
+                    {
+                      "name": "KOL Profiling, Mapping, Tier segmentation, Compliance Checks and AI-driven KOL Sentiment Analysis",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "KOL Relationship Development and Management",
+                  "children": [
+                    {
+                      "name": "Panel discussions with the Advisory Board, Planning engagement initiatives, Personalized Communication for Engagement, Medical Education, Speaker Programs",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "KOL Influence Measurement",
+                  "children": [
+                    {
+                      "name": "Measure impact of KOL activites across the channels, ROI measurement of KOL enforcement, Centralized Data Platforms to maintain an up-to-date database of KOL interactions, Opportunities for KOL influence",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Physician Engagement",
+              "children": [
+                {
+                  "name": "Event/Congress/Symposiums, Conference/CME/",
+                  "children": [
+                    {
+                      "name": "Preference based Selection of targeted Physicians for engagement programs",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Patient Programs",
+              "children": [
+                {
+                  "name": "Disease Awareness Campaigns",
+                  "children": [
+                    {
+                      "name": "Web Portals/print campaigns, health awareness drives, patient community groups",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Product Launch",
+              "children": [
+                {
+                  "name": "Launch Planning & Execution",
+                  "children": [
+                    {
+                      "name": "Cross-functional coordination among different teams, pricing strategy, market access readiness, stakeholder mapping, GTM planning, country wise regulatory approvals, Promotional material planning",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Product Launch",
+              "children": [
+                {
+                  "name": "Post - Launch ",
+                  "children": [
+                    {
+                      "name": "Post Market Survellience (Sales tracking, AE monitoring)",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Marketing Analytics",
+              "children": [
+                {
+                  "name": "Campaign Performance Metrics",
+                  "children": [
+                    {
+                      "name": "Click-through rates (CTR), lead conversion rates, ROI on ad spends, omni-channel data collection from Salesforce, Veeva, Google Analytics, Adobe etc. and more, AI-driven predictive analytics",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Marketing Operations",
+              "children": [
+                {
+                  "name": "Supply Chain Optimization and Inventory Management",
+                  "children": [
+                    {
+                      "name": "Demand Forecasting, Supply Chain Efficiency",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Vendor/Agency Management",
+                  "children": [
+                    {
+                      "name": "Vendor selection, Performance monitoring, Contracts,  performance evaluations, and coordination with creative/PR agencies",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Financial Forecasting",
+                  "children": [
+                    {
+                      "name": "Campaign budget tracking, Expense management, resource optimization, and spend analytics, Budgeting & Resource Allocation, ROI tracking",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Market Access",
+          "children": [
+            {
+              "name": "Stakeholder Engagement (public/private payers, government health bodies, formulary committees, hospitals, clinicians, and patient advocacy groups)",
+              "children": [
+                {
+                  "name": "Stakeholder Mapping and Analysis",
+                  "children": [
+                    {
+                      "name": "Identification and Prioritization of Stakeholders, Influence Mapping and Needs Assessment of stakeholders as per their role",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stakeholder Engagement (public/private payers, government health bodies, formulary committees, hospitals, clinicians, and patient advocacy groups)",
+              "children": [
+                {
+                  "name": "Payer Segmentation",
+                  "children": [
+                    {
+                      "name": "Payer landscape analysis, health economic modeling, policy prioritization",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stakeholder Engagement (public/private payers, government health bodies, formulary committees, hospitals, clinicians, and patient advocacy groups)",
+              "children": [
+                {
+                  "name": "Value Proposition Development",
+                  "children": [
+                    {
+                      "name": "Develop Health Economic Models (Budget impact analysis, cost-effectiveness modeling) , Analysis of Real-World Evidence, Tailored Messaging for different stakeholder types ",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pricing and Reimbursement",
+              "children": [
+                {
+                  "name": "Pricing Strategy",
+                  "children": [
+                    {
+                      "name": "Develop a pricing strategy based on the stage of life cycle of product / by Plan / Payer based on multiple factors, competitor benchmarking, affordability analysis",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Negotiation strategy and Reimbursement Planning",
+                  "children": [
+                    {
+                      "name": "Preparation of Negotiation Dossiers, Decisions on Reimbursement Conditions, Develop Risk-Sharing and Outcomes-Based Agreements, Health Technology Assessment submissions, Payer negotiation, Formulary placement",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Market Access Operations",
+              "children": [
+                {
+                  "name": "Stakeholder Engagement",
+                  "children": [
+                    {
+                      "name": "Advocacy with regulatory bodies, patient advocacy group collaboration, Payer education, Price transparency reporting/ Compliance reporting / Medicare- Medicaid pricing and reporting ( AWP- Best Price), Govt pricing process, Regulatory process",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Tender Management",
+                  "children": [
+                    {
+                      "name": "Bid preparation, contract negotiation, and execution ( Revenue Management)",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Coverage Optimization",
+              "children": [
+                {
+                  "name": "Formulary Management",
+                  "children": [
+                    {
+                      "name": "Formulary tracking, Gap analysis, Provider and Specialty Pharmacy Engagement",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Market Monitoring and Performance Tracking",
+              "children": [
+                {
+                  "name": "Market Access Metrics",
+                  "children": [
+                    {
+                      "name": "Claims and Prescription data analysis, Competitive response tracking, Forecasting and KPI dashboards, Policy and regulation tracking, Reimbursement success rates, Time-to-market metrics, pricing variance analysis, ",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Patient Engagement",
+              "children": [
+                {
+                  "name": "Patient Support Programs (PSPs)",
+                  "children": [
+                    {
+                      "name": "Behavioural Analytics, Ongoing patient education, Adherence programs, Financial assistance, Caregiver support",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Medical Affairs",
+          "children": [
+            {
+              "name": "Scientific Communication and Medical Messaging",
+              "children": [
+                {
+                  "name": "Scientific Messaging",
+                  "children": [
+                    {
+                      "name": "Scientific communication for  marketing campaigns,  events, congress, seminars, speaker programs, journals etc.",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Support to MSL",
+                  "children": [
+                    {
+                      "name": "Scientific content support",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "RWE and Data Generation",
+                  "children": [
+                    {
+                      "name": "Partnering with Research organizations, Planning HEOR , Post-marketing clinical studies, ",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Publications and Thought Leadership",
+                  "children": [
+                    {
+                      "name": "Medical writing, Publication planning",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "PV and AE Monitoring",
+                  "children": [
+                    {
+                      "name": "Monitoring real-world safety data, collaborating with regulatory bodies ",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Supply Chain Management",
+          "children": [
+            {
+              "name": "Drug Distribution",
+              "children": [
+                {
+                  "name": "Multi-tier Distribution",
+                  "children": [
+                    {
+                      "name": "Factory to Warehouse to Whole sale distributors/3 PL to Specialty Pharmacies to Retail Pharmacies to /Hospitals to Patients",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

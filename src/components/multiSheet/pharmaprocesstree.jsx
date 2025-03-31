@@ -241,7 +241,7 @@ import React, { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import { jsPDF } from "jspdf";
 import { Canvg } from "canvg";
-import jsonData from "../Pharma_ProcessMap.json";
+import jsonData from "../PharmaProcess_Full.json";
 
 const PharmaProcessTree = () => {
   const svgRef = useRef();
@@ -253,6 +253,7 @@ const PharmaProcessTree = () => {
     3: true,
     4: true,
     5: true,
+    6: true,
   });
   const [categories, setCategories] = useState({
     Research: true,
@@ -290,9 +291,9 @@ const PharmaProcessTree = () => {
       filterHierarchy(jsonData, levels, categories)
     );
 
-    const width = 1800;
-    const height = 2000;
-    const margin = { top: 80, right: 80, bottom: 80, left: 200 };
+    const width = 3200;
+    const height = 3400;
+    const margin = { top: 20, right: 280, bottom: 20, left: 180 };
 
     // Clear previous SVG
     d3.select(svgRef.current).selectAll("*").remove();
@@ -304,7 +305,7 @@ const PharmaProcessTree = () => {
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    const treeLayout = d3.tree().size([height - 100, width - 900]);
+    const treeLayout = d3.tree().size([height - 100, width - 1500]);
     const treeDataProcessed = treeLayout(treeRoot);
 
     const linkColorScale = d3.scaleOrdinal(d3.schemeCategory10);
@@ -341,10 +342,8 @@ const PharmaProcessTree = () => {
 
     nodeEnter
       .append("circle")
-      .attr("r", 6)
+      .attr("r", 4)
       .attr("fill", "steelblue")
-      .attr("stroke", "#fff")
-      .attr("stroke-width", 2)
       .on("mouseover", function () {
         d3.select(this).attr("fill", "orange");
       })
@@ -357,7 +356,7 @@ const PharmaProcessTree = () => {
       .attr("dy", ".35em")
       .attr("x", (d) => (d.children ? -30 : 20))
       .style("text-anchor", (d) => (d.children ? "end" : "start"))
-      .attr("font-size", "11px")
+      .attr("font-size", "10px")
       .attr("fill", "black")
       .text((d) => d.data.name);
   }, [treeData, levels, categories]);
@@ -445,7 +444,9 @@ const PharmaProcessTree = () => {
           Export to PDF
         </button>
       </div>
+      <div style={{width: "100%", height: "570px", overflow:"auto"}}>
       <svg ref={svgRef}></svg>
+      </div>
     </div>
   );
 };
